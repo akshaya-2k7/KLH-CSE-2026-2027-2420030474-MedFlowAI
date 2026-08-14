@@ -12,7 +12,7 @@
 | Academic Year | 2026-2027 |
 | Team ID | 2420030474 |
 | Required repository name | `KLH-CSE-2026-2027-2420030474-MedFlowAI` |
-| Supervisor | To Be Confirmed |
+| Supervisor | DR.ARCHANA KALIDINDI |
 
 ### Team Members
 
