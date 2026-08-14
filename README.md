@@ -24,11 +24,30 @@
 
 ## Abstract
 
-Healthcare organizations increasingly rely on digital systems to manage patients, clinicians, appointments, medical records, laboratory services, pharmacy operations, billing, and emergency care. Many conventional applications remain fragmented and process-centric, requiring extensive manual coordination while offering limited intelligent support. This can produce duplicated information, delayed communication, inefficient appointment and queue management, difficulty interpreting medical documents, fragmented patient records, and slower operational or emergency response.
-
-MedFlow AI is a proposed agentic, cloud-native healthcare intelligence platform combining service-oriented microservices, artificial intelligence, security, Agile delivery, DevOps, and DevSecOps. It is designed to support patients, doctors, nurses, receptionists, laboratory staff, pharmacists, billing staff, emergency staff, and administrators through role-based workflows. A dedicated AI Service is planned to use Spring AI and Google Gemini API for specialized Patient, Doctor, Emergency, Pharmacy, Billing, and Hospital Operations Assistants. AI will provide contextual decision support under human oversight and will not autonomously diagnose, prescribe, or execute sensitive healthcare decisions.
-
-The planned platform uses Java 21, Spring Boot, Spring Cloud, React.js, PostgreSQL, Spring Security, JWT, Spring Cloud Gateway, Eureka, OpenFeign, Docker, Kubernetes, GitHub Actions, SonarQube, Trivy, OWASP ZAP, Actuator, Prometheus, and Grafana. The project demonstrates how agentic AI can be integrated with cloud-native, security-first engineering while preserving accountability and traceability.
+Healthcare organizations increasingly rely on digital systems to manage patients, clinicians, appointments, 
+medical records, laboratory services, pharmacy operations, billing, and emergency care, yet many 
+conventional healthcare management applications remain fragmented and process-centric, requiring extensive 
+manual coordination across departments while providing limited intelligent support, resulting in duplicated 
+information, delayed communication, inefficient appointment and queue management, difficulty interpreting 
+medical documents, fragmented patient records, and slower responses to operational and emergency needs.
+MedFlow AI addresses these challenges through a service-oriented microservices architecture integrated with 
+artificial intelligence and modern software engineering practices, providing role-based workflows for patients, 
+doctors, nurses, receptionists, laboratory staff, pharmacists, billing personnel, emergency staff, and 
+administrators, with core capabilities including authentication, patient profiles and medical histories, 
+appointment management, queue handling, medical records, laboratory reports, prescriptions, pharmacy 
+operations, billing, notifications, and emergency support. An AI service built using Spring AI and the Google 
+Gemini API coordinates six specialized agents—Patient Assistant, Doctor Assistant, Emergency Assistant, 
+Pharmacy Assistant, Billing Assistant, and Hospital Operations Assistant—capable of multi-step reasoning 
+and domain-specific tool use rather than single-shot question answering, supporting medical-report 
+summarization, clinical information organization, appointment and queue guidance, medication and inventory 
+insights, bill explanations, and operational recommendations, while functioning strictly as decision-support 
+tools under human oversight rather than autonomous diagnostic or treatment systems. The system is 
+implemented using Java 21, Spring Boot, Spring Cloud, React.js, and PostgreSQL with a database-perservice architecture, while Spring Security/JWT, API Gateway, Eureka, and OpenFeign provide security, 
+service discovery, API routing, and inter-service communication. Docker, Kubernetes, and AWS support 
+cloud-native deployment, while Jira, GitHub Actions, SonarQube, Trivy, OWASP ZAP, Prometheus, and 
+Grafana enable Agile development, CI/CD, DevSecOps practices, security and code-quality validation, and 
+system monitoring, collectively providing a scalable, secure, reliable, and extensible healthcare platform that 
+demonstrates the integration of agentic AI with modern cloud-native software engineering.
 
 ## Problem Statement
 
